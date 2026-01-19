@@ -1,0 +1,59 @@
+body {
+            background: url(education.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgba(255, 255, 255, 0.904);
+            
+        }
+        .container {
+            
+            background-color: rgba(0, 0, 0, 0.5); /* Optional: to enhance text visibility */
+        }
+        nav {
+            display: flex;
+            justify-content:end;
+            align-items: center;
+            background-color: rgba(116, 115, 115, 0.7);
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        nav ul li:first-child {
+            position: absolute;
+            left: 4px;
+        }
+        nav ul li select {
+            background-color: transparent;
+            font-weight: bold;
+            border: none;
+        }
+        nav ul li select option {
+            background-color: transparent;
+            color: black;
+        }
+        textarea {
+            border-radius: 5px;
+            font-size: 14px;
+            border: none;
+            resize: none;
+        }
